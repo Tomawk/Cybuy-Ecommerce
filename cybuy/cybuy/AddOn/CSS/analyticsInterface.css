@@ -1,0 +1,22 @@
+.KeyAnalytics{
+    -fx-font-size:20;
+
+}
+
+.ValueAnalytics{
+    -fx-font-size:20;
+    -fx-fill: a0a0a0;
+}
+
+.StarsNumber{
+    -fx-font-weight: bold;
+}
+
+.StarsQuantity{
+
+}
+
+.Title{
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+}

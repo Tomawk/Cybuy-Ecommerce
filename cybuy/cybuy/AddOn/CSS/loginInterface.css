@@ -1,0 +1,66 @@
+@font-face {
+    src: url("../Font/OpenSans-Regular.ttf");
+}
+
+
+.label {
+	-fx-font-family: 'OpenSans Regular';
+}
+
+.nav_signin {
+    -fx-font-size: 16px;
+    -fx-font-family: 'OpenSans Regular';
+
+}
+
+.nav_signin_separator {
+    -fx-font-size: 16px;
+    -fx-font-family: 'OpenSans Regular';
+
+}
+
+.nav_signin:hover{
+	-fx-cursor: hand;
+	-fx-underline: true;
+}
+
+.search-bar{
+	-fx-text-fill: black; /*#d0d0d0*/
+	-fx-font-size: 16px; 
+	-fx-background-color: white; 
+	-fx-accent: #d0d0d0;
+}
+
+.cart_btn:hover{
+	-fx-cursor: hand;
+	-fx-background-color: #c1c1c1;
+}
+
+.input{
+	-fx-text-fill: #858585; /*#d0d0d0*/
+	-fx-font-size: 14px; 
+	-fx-background-color: #f4f4f4; 
+	-fx-border-color: #858585;
+	-fx-border-radius: 5;
+	-fx-border-width: 2;
+}
+
+.signin_btn:hover{
+	-fx-cursor: hand;
+}
+
+.success{
+	-fx-text-fill: green;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+
+.error{
+	-fx-text-fill: red;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+
+.search_btn:hover{
+	-fx-cursor: hand;
+}

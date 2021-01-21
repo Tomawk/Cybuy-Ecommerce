@@ -1,0 +1,117 @@
+@font-face {
+    src: url("../Font/OpenSans-Regular.ttf");
+}
+
+
+.label {
+	-fx-font-family: 'OpenSans Regular';
+}
+
+.nav_signin {
+    -fx-font-size: 16px;
+    -fx-font-family: 'OpenSans Regular';
+
+}
+
+.nav_signin_separator {
+    -fx-font-size: 16px;
+    -fx-font-family: 'OpenSans Regular';
+
+}
+
+.nav_signin:hover{
+	-fx-cursor: hand;
+	-fx-underline: true;
+}
+
+.search-bar{
+	-fx-text-fill: black; /*#d0d0d0*/
+	-fx-font-size: 16px; 
+	-fx-background-color: white; 
+	-fx-accent: #d0d0d0;
+}
+
+.cart_btn:hover{
+	-fx-cursor: hand;
+	-fx-background-color: #c1c1c1;
+}
+
+.results_label{
+	-fx-font-size: 14px;
+    -fx-font-family: 'OpenSans Regular';
+    -fx-text-fill: black; 
+}
+
+.menu-bar{
+  -fx-background-color: white;
+  -fx-background-radius: 30;
+  -fx-border-color:  black;
+  -fx-border-radius: 30;
+  -fx-border-width: 1;
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 12px;
+    -fx-font-family: "OpenSans Regular";
+    -fx-text-fill: black;
+
+}
+
+
+.menu:hover {
+    -fx-background-color: #d0d0d0;
+    -fx-cursor: hand;
+}
+
+.menu-item .label{
+     -fx-font-size: 12px;
+     -fx-label-line-length: 8;
+     -fx-background-color: white;
+     -fx-cursor: hand;
+}
+
+.sidebar_title{
+	-fx-font-size: 16px;
+	-fx-font-weight: bold; 
+}
+
+.sidebar_categories{
+	-fx-font-size: 16px;
+}
+
+.sidebar_categories:hover{
+	-fx-cursor: hand;
+	-fx-underline: true;
+}
+
+.article_description{
+	-fx-font-size: 12px;
+}
+
+.article_description:hover{
+	-fx-cursor: hand;
+	-fx-underline: true;
+}
+.article_price{
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
+
+.previous_btn{
+	-fx-background-color: white;
+}
+
+.pages_btn{
+	-fx-font-weight: bold;
+	-fx-background-color: #F1F1F1;
+}
+
+.pages_btn:hover{
+	-fx-background-color: #E9E9E9;
+	-fx-cursor: hand;
+}
+
+.search_btn:hover{
+  -fx-cursor: hand;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xml--> 
+<lsmd.group17.cybuy.config.ConfigurationParameters>
+    <uriMongoDB>mongodb://172.16.3.138:27020,172.16.3.139:27020,172.16.3.140:27020</uriMongoDB>
+
+    <!--
+    Stringa per eseguire in locale:
+        //TODO inserisci
+    -->
+
+    <levelDBservers>
+        <address port="1234">172.16.3.138</address>
+        <address port="1234">172.16.3.139</address>
+        <address port="1234">172.16.3.140</address>
+    </levelDBservers>
+</lsmd.group17.cybuy.config.ConfigurationParameters>

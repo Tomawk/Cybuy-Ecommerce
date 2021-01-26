@@ -1,0 +1,148 @@
+@font-face {
+    src: url("../Font/OpenSans-Regular.ttf");
+}
+
+
+.label {
+	-fx-font-family: 'OpenSans Regular';
+}
+
+.nav_signin {
+    -fx-font-size: 16px;
+    -fx-font-family: 'OpenSans Regular';
+
+}
+
+.nav_signin_separator {
+    -fx-font-size: 16px;
+    -fx-font-family: 'OpenSans Regular';
+
+}
+
+.nav_signin:hover{
+	-fx-cursor: hand;
+	-fx-underline: true;
+}
+
+.search-bar{
+	-fx-text-fill: black; /*#d0d0d0*/
+	-fx-font-size: 16px; 
+	-fx-background-color: white; 
+	-fx-accent: #d0d0d0;
+}
+
+.cart_btn:hover{
+	-fx-cursor: hand;
+	-fx-background-color: #c1c1c1;
+}
+
+.main_label{
+	-fx-text-fill: black;
+	-fx-font-size: 32px; 
+	-fx-font-weight: bold;
+}
+
+.input{
+	-fx-text-fill: #858585; /*#d0d0d0*/
+	-fx-font-size: 16px; 
+	-fx-background-color: #f4f4f4; 
+	-fx-border-color: #858585;
+	-fx-border-radius: 5;
+	-fx-border-width: 2;
+}
+
+.signup_label{
+	-fx-text-fill: #858585; 
+	-fx-font-size: 16px; 
+	-fx-font-weight: bold;
+}
+
+.signup_btn:hover{
+	-fx-cursor: hand;
+}
+
+.rights{
+	-fx-text-fill: #858585;
+	-fx-font-size: 10px;
+}
+
+.success{
+	-fx-text-fill: green;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+
+.error{
+	-fx-text-fill: red;
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+}
+
+.search_btn:hover{
+	-fx-cursor: hand;
+}
+
+.menu-bar{
+  -fx-background-color: #f4f4f4;
+  -fx-background-radius: 30;
+  -fx-border-color:  #858585;
+  -fx-border-radius: 5;
+  -fx-border-width: 2;
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 16px;
+    -fx-font-family: "OpenSans Regular";
+    -fx-text-fill: #858585;
+
+}
+
+.menu:hover {
+    -fx-cursor: hand;
+}
+
+.menu-item{
+	-fx-background-color:  #f4f4f4;
+}
+
+.menu-item .label{
+     -fx-font-size: 16px;
+     -fx-text-fill: #858585;
+     -fx-label-line-length: 4;
+     -fx-background-color:  #f4f4f4;
+     -fx-cursor: hand;
+}
+
+
+.scroll-pane {
+    -fx-background-color: #d0d0d0;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #929090;
+    -fx-background-radius: 1em;
+}
+
+.signup_label{
+	-fx-text-fill: #858585; 
+	-fx-font-size: 16px; 
+	-fx-font-weight: bold;
+}

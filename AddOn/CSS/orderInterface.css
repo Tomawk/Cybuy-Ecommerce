@@ -1,0 +1,61 @@
+@font-face {
+    src: url("../Font/OpenSans-Regular.ttf");
+}
+
+#history{
+    -fx-font-family: 'OpenSans Regular';
+    -fx-font-size: 50;
+    color: red;
+}
+
+.OrderLabel{
+    -fx-font-family: 'OpenSans Regular';
+    -fx-font-size: 15;
+}
+
+#description{
+    -fx-font-size: 20;
+    -fx-cursor: hand;
+    -fx-underline: true;
+    -fx-font-weight: bold;
+}
+
+#description:hover{
+    -fx-underline: false;
+}
+
+.Subinfo{
+
+}
+
+#status{
+    -fx-font-weight: bold;
+}
+
+.Item{
+    -fx-background-color: white;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 3;
+    -fx-focus-traversable: false;
+}
+
+.DarkerItem{
+    -fx-background-color: #eaeaea;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 1;
+}
+
+#image{
+    -fx-cursor: hand;
+}
+
+.buttonImage{
+    -fx-cursor: hand;
+    -fx-border-color: c0c0c0;
+    -fx-background-color: e0e0e0;
+    -fx-border-width: 2;
+}
+
+.buttonImage:hover{
+    -fx-background-color: a0a0a0;
+}

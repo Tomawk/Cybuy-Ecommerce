@@ -1,0 +1,91 @@
+@font-face {
+    src: url("../Font/OpenSans-Regular.ttf");
+}
+
+
+.label {
+	-fx-font-family: 'OpenSans Regular';
+}
+
+.nav_signin {
+    -fx-font-size: 16px;
+    -fx-font-family: 'OpenSans Regular';
+
+}
+
+.nav_signin_separator {
+    -fx-font-size: 16px;
+    -fx-font-family: 'OpenSans Regular';
+
+}
+
+.nav_signin:hover{
+	-fx-cursor: hand;
+	-fx-underline: true;
+}
+
+.search-bar{
+	-fx-text-fill: black; /*#d0d0d0*/
+	-fx-font-size: 16px; 
+	-fx-background-color: white; 
+	-fx-accent: #d0d0d0;
+}
+
+.home_btn:hover{
+	-fx-cursor: hand;
+	-fx-background-color: #c1c1c1;
+}
+
+.main_label{
+	-fx-text-fill: black;
+	-fx-font-size: 32px; 
+	-fx-font-weight: bold;
+}
+
+.scroll-pane {
+    -fx-background-color: #d0d0d0;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #929090;
+    -fx-background-radius: 1em;
+}
+
+.description{
+	-fx-font-size: 13px; 
+	-fx-font-weight: bold;
+}
+
+.price{
+	-fx-font-size: 16px; 
+	-fx-font-weight: bold;
+}
+
+.quantity_btn:hover{
+	-fx-cursor: hand;
+}
+
+.bin_btn:hover{
+	-fx-cursor: hand;
+}
+
+.search_btn:hover{
+	-fx-cursor: hand;
+}

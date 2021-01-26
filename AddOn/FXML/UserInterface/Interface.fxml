@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" stylesheets="@../../CSS/userInterface.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lsmd.group17.cybuy.gui.user.UserController">
+   <children>
+      <ScrollPane fitToWidth="true" focusTraversable="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane prefHeight="685.0">
+               <children>
+                  <VBox alignment="CENTER" fillWidth="false" layoutX="519.0" layoutY="285.0" prefHeight="200.0" prefWidth="100.0" styleClass="Item" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="75.0">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Text id="user" strokeType="OUTSIDE" strokeWidth="0.0" text="User " />
+                              <Text id="username" fx:id="username" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;username&gt;" />
+                           </children>
+                        </HBox>
+                        <AnchorPane styleClass="Item">
+                           <children>
+                              <ImageView fx:id="userImage" fitHeight="228.0" fitWidth="242.0" layoutX="63.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <image>
+                                    <Image url="@../../Images/user.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </padding>
+                        </AnchorPane>
+                        <HBox styleClass="subInfoContainer">
+                           <children>
+                              <Text id="psw" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subInfoKey" text="Name" />
+                              <Text id="password" fx:id="name" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subInfoValue" text="&lt;name&gt;" />
+                           </children>
+                        </HBox>
+                        <HBox styleClass="subInfoContainer">
+                           <children>
+                              <Text id="psw" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subInfoKey" text="Surname" />
+                              <Text id="password" fx:id="surname" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subInfoValue" text="&lt;surname&gt;" />
+                           </children>
+                        </HBox>
+                        <HBox styleClass="subInfoContainer">
+                           <children>
+                              <Text id="psw" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subInfoKey" text="Password" />
+                              <Text id="password" fx:id="password" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subInfoValue" text="&lt;password&gt;" />
+                           </children>
+                        </HBox>
+                        <Text fx:id="logoutBtn" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Link" text="logout" />
+                        <Text fx:id="deleteAccount" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Link" text="delete account" />
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </VBox>
+                  <HBox layoutX="693.0" layoutY="165.0" prefHeight="100.0" prefWidth="200.0" spacing="20.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="160.0">
+                     <children>
+                        <Pane prefHeight="216.0" prefWidth="154.0" style="-fx-background-color: c0c0c0;">
+                           <padding>
+                              <Insets right="10.0" />
+                           </padding>
+                        </Pane>
+                        <VBox fx:id="btnRoot" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <Text fx:id="orderBtn" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Sidelink" text="Go to orders history" />
+                              <Text fx:id="cartBtn" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Sidelink" text="Go to cart" />
+                              <Text fx:id="wishlistBtn" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Sidelink" text="Go to wishlist" />
+                              <Text fx:id="addProduct" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Sidelink" text="Add product" />
+                              <Text fx:id="adminBtn" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Sidelink" text="Go to admin panel" />
+                              <Text fx:id="analyticsBtn" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Sidelink" text="Watch analytics" />
+                              <Text fx:id="browseBtn" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Sidelink" text="Browse items" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="50.0" />
+               </padding>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <fx:include fx:id="navbar" source="../SearchbarInterface.fxml" />
+   </children>
+</AnchorPane>

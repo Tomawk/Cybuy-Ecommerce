@@ -22,5 +22,6 @@ The project repository is organized as follows:
 * *Web Scraping.* This folder will contain some of the scripts written for web scraping.
 * *Database Dump.* This folder will contain a dump of the Document Database.
 
-A zipped version of the repository is also included (cybuy.zip).
-**The dump of the database is not included in cybuy.zip but it can be found in /cybuy-group17/Database Dump/cybuy**
+**To start the client side of the application, please load the cybuy module into IntelliJ and run the main function of lsmd.group17.cybuy.gui.GUIStarter class**
+
+A zipped version of the repository is also included (cybuy.zip). The dump of the database is not included in cybuy.zip but it can be found in /cybuy-group17/Database Dump/cybuy

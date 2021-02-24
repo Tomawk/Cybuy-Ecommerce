@@ -29,3 +29,7 @@ For additional information check the documentation in the repository (.pdf)
 
 ## Screenshots
 
+![alt text](https://github.com/Tomawk/cybuy-group17/blob/main/Screenshots/Screenshot%20(272).png?raw=true)
+![alt text](https://github.com/Tomawk/cybuy-group17/blob/main/Screenshots/Screenshot%20(275).png?raw=true)
+![alt text](https://github.com/Tomawk/cybuy-group17/blob/main/Screenshots/Screenshot%20(273).png?raw=true)
+![alt text](https://github.com/Tomawk/cybuy-group17/blob/main/Screenshots/Screenshot%20(274).png?raw=true)

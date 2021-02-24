@@ -1,5 +1,5 @@
 # cybuy
-Repository for the group project developed for Large-Scale and Multi-Structured Databases.
+Cybuy is an application developed in Java using NoSQL databases. It was a group project made for the course "Large-scale and multi-structured databases" during my second cycle degree (Computer Engineering - Cybersecurity) at the University of Pisa. 
 
 ## The application
 *cybuy* is an e-commerce application whose focus is on electronic products. It aims to make the purchase process easier for customers and to allow sellers to manage their products and their sales.
